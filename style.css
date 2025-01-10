@@ -1,0 +1,245 @@
+                body{
+                    font-family: Poppins;
+                    margin: 0px;
+                }
+                .navbar{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    padding: 12px;
+                    margin-top: 0px;
+                    border-bottom: 0px solid #C4C4C4;
+                    border-radius: 5px;
+                }
+
+                .nav-links a{
+                    text-decoration: none;
+                    color: black;
+                    font-weight: bold;
+                    margin-left: 20px;
+                }
+                .nav-logo h1{
+                    margin: 0px;
+                    padding: 0px;
+                    cursor: pointer;
+                    transition-duration: 0.3s;
+                }
+                .nav-logo h1:hover{
+                    color: #FF2002;
+                    font-size: 2.5em;
+                }
+
+                .nav-logo {
+                    margin-left: 15px;
+                    display: flex;
+                    justify-content: center;
+                }
+
+                .nav-links {
+                    margin-right: 0px;
+                }
+                .custom-menu{
+                    margin-top: 12px;
+                    margin-right: 25px;
+                    display: none;
+                }
+                .nav-login{
+                    display: flex;
+                }
+
+                .nav-login button{
+                    font-family: Poppins;
+                    font-weight: bold;
+                    padding: 10px;
+                    padding-right: 17px;
+                    padding-left: 17px;
+                    border-radius: 5px;
+                    border: none;
+                    background-color: #FF2002;
+                    color: white;
+                    cursor: pointer;
+                    transition-duration: 0.3s;
+                }
+                .nav-login button:hover{
+                    background-color: white;
+                    border: 1px solid #FF2002;
+					box-sizing: border-box;
+                    color: #FF2002;
+                }
+                .search-bar input{
+                    float: right;
+                    padding: 12px;
+                    padding-left: 20px;
+                    border-radius: 100px;
+                    outline: none;
+                    border: 1px solid #A4A2A4;
+                    margin-top: 12px;
+                    width: 20%;
+                    margin-right: 12px;
+                    display: none;
+                }
+                .new-product .main-head h3{
+                    margin-left: 25px;
+                }
+                .new-product{
+                    margin-top: 7px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                }
+                .view-more{
+                    margin-right: 25px;
+					cursor: pointer;
+                }
+                .box{
+                    width: 180px;
+                    height: 240px;
+                    border: 1px solid #C4C4C4;
+                    margin: 12px;
+                    border-radius: 15px;
+                    cursor: pointer;
+                    text-align: center;
+                    font-weight: bold;
+                    align-content: top;
+                    transition-duration: 0.2s;
+					overflow: hidden;
+					position: relative;
+                }
+                .box:hover{
+                    box-shadow: 0px 0px 6px 1px rgba(37, 55, 128, 0.3);
+                }
+
+                .n-products{
+                    margin-left: 12px;
+                    margin-right: 12px;
+                    display: flex;
+                }
+                .banner{
+                    width: 100%;
+                    height: 200px;
+                    border: 1px solid #C4C4C4;
+                    border-radius: 20px;
+                    text-align: center;
+                    align-content: center;
+                    font-weight: bold;
+                    overflow: hidden;
+                }
+                .banner img{
+                    width: 100%;
+                    height: 100%;
+                }
+
+                .h-banner{
+                    margin: 20px;
+                    margin-top: 50px;
+                }
+				.inner-box {
+					position: relative;
+					width: 100%;
+					height: 165px;
+					background-color: none;
+					overflow: hidden;
+					border-radius: 12px;
+					box-shadow: inset 0px 0px 6px 1px rgba(37, 55, 128, 0.7);
+				}
+				.inner-box img{
+					width: 100%;
+                    height: 100%;
+					box-shadow: inset 0px 0px 100px rgba(0,0,0,0.2);
+					display: block;
+					transition-duration: 0.3s;
+				}
+				.box:hover img{
+                    transform: scale(1.2);
+                }
+				.box .p-details h5{
+					margin: 0px;
+					padding: 0px;
+				}
+				.box .p-details{
+                    width: 100%;
+					position: absolute;
+					margin: 12px;
+					height: 100%;
+					text-align: left;
+				}
+                .box .p-details-rate p{
+                    font-size: 110%;
+                    font-family: calibri;
+                    color: green;
+                    margin: 0px;
+                }
+                .p-details-bottom{
+                    width: 100%;
+                    margin-top: 7px;
+                    padding-bottom: 100px;
+                    position: absolute;
+                    display: flex;
+                    justify-content: space-between;
+                }
+                .p-details-rating{
+                    display: flex;
+                    margin-right: 30px;
+                }
+                .p-details-rating p{
+                    margin: 1px;
+                    color: orangered;
+                    font-family: calibri;
+                }
+                .custom-rating{
+                    margin: 0px;
+                    color: orangered;
+                }
+				.inner-box .btn{
+					display: none;
+					align-content: center;
+					width: 100%;
+					height:100%;
+					background-color: rgba(0,0,0,0.1);
+					font-family: Poppins;
+					position: absolute;
+					top: 50%;
+					left: 50%;
+					transform: translate(-50%,-50%);
+					transition-duration: 0.3s;
+				}
+				.btn button{
+					font-family: Poppins;
+					font-weight: bold;
+					color: white;
+					padding: 8px;
+					padding-left: 10px;
+					padding-right: 10px;
+					border: none;
+					cursor: pointer;
+					border-radius: 4px;
+					background-color: #FF2002;
+					transition-duration: 0.3s;
+				}
+				.btn button:hover{
+					background-color: white;
+					color: #FF2002;
+					border: 1px solid #FF2002;
+				}
+				.box:hover .btn{
+					display: block;
+				}
+				.top-banner img{
+					width: 100%;
+				}
+                @media screen and (max-width: 490px){
+
+                    .custom-menu{
+                        display: block;
+                    }
+                    .nav-links a{
+                        display: none;
+                    }
+                }
+
+                @media screen and (max-width: 800px)
+                {
+                    .n-products{
+                        flex-wrap: wrap;
+                    }
+                }
