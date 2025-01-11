@@ -118,7 +118,7 @@
                     width: 100%;
                     height: 200px;
                     border: 1px solid #C4C4C4;
-                    border-radius: 20px;
+                    border-radius: none;
                     text-align: center;
                     align-content: center;
                     font-weight: bold;
@@ -132,6 +132,12 @@
                 .h-banner{
                     margin: 20px;
                     margin-top: 50px;
+                    margin-left: 0px;
+                    margin-right: 0px;
+                    background-color: #F5F5F5;
+                    padding: 30px;
+                    padding-right: 70px;
+                    padding-left: 70px;
                 }
 				.inner-box {
 					position: relative;
