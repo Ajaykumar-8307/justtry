@@ -233,7 +233,7 @@
 				.top-banner img{
 					width: 100%;
 				}
-                @media screen and (max-width: 490px){
+                @media screen and (min-width: 385px){
 
                     .custom-menu{
                         display: block;
