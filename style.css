@@ -248,7 +248,7 @@
                 @media (max-width: 800px)
                 {
                     .n-products{
-						overflow: scroll;
+			    overflow: scroll;
                         
                     }
                 }
