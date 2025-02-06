@@ -233,7 +233,7 @@
 				.top-banner img{
 					width: 100%;
 				}
-                @media screen and (min-width: 385px){
+                @media (max-width: 385px){
 
                     .custom-menu{
                         display: block;
@@ -243,7 +243,7 @@
                     }
                 }
 
-                @media screen and (max-width: 800px)
+                @media (max-width: 800px)
                 {
                     .n-products{
                         flex-wrap: wrap;
