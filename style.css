@@ -34,6 +34,9 @@
                     display: flex;
                     justify-content: center;
                 }
+		.nav-logo i{
+			margin-bottom: 5px;
+		}
 
                 .nav-links {
                     margin-right: 0px;
