@@ -243,6 +243,9 @@
                     .nav-links a{
                         display: none;
                     }
+			.box{
+				transform: scale(0.8);
+			}
                 }
 
                 @media (max-width: 800px)
